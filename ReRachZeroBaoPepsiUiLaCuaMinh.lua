@@ -1399,7 +1399,7 @@ do
 			Bar.Size = UDim2.new(0, 3, 1, 0)
 			Close.AnchorPoint = Vector2.new(1, 0.5)
 			Close.BackgroundTransparency = 1
-			Close.Image = "rbxassetid://5492252477"
+			Close.Image = "rbxassetid://13876241935"
 			Close.ImageColor3 = library.colors.elementText
 			colored[1 + #colored] = {Close, "ImageColor3", "elementText"}
 			Close.Name = "Close"
@@ -1620,7 +1620,7 @@ function library:CreateWindow(options, ...)
 	tabsHolder.BorderSizePixel = 0
 	tabsHolder.Position = UDim2.fromOffset(1, 1)
 	tabsHolder.Size = UDim2.new(1, -2, 0, 23)
-	tabsHolder.Image = "rbxassetid://2454009026"
+	tabsHolder.Image = "rbxassetid://13876241935"
 	tabsHolder.ImageColor3 = library.colors.bottomGradient
 	colored[1 + #colored] = {tabsHolder, "ImageColor3", "bottomGradient"}
 	tabHolderList.Name = "tabHolderList"
@@ -2000,7 +2000,7 @@ function library:CreateWindow(options, ...)
 				toggle.Position = UDim2.fromScale(0.0308237672, 0.165842205)
 				toggle.Selectable = true
 				toggle.Size = UDim2.fromOffset(12, 12)
-				toggle.Image = "rbxassetid://2454009026"
+				toggle.Image = "rbxassetid://13876241935"
 				toggle.ImageColor3 = library.colors.bottomGradient
 				local colored_toggle_ImageColor3 = {toggle, "ImageColor3", "bottomGradient"}
 				colored[1 + #colored] = colored_toggle_ImageColor3
@@ -2016,7 +2016,7 @@ function library:CreateWindow(options, ...)
 				toggleInner.Position = UDim2.fromScale(0.5, 0.5)
 				toggleInner.Selectable = true
 				toggleInner.Size = UDim2.new(1, -4, 1, -4)
-				toggleInner.Image = "rbxassetid://2454009026"
+				toggleInner.Image = "rbxassetid://13876241935"
 				toggleInner.ImageColor3 = library.colors.bottomGradient
 				local colored_toggleInner_ImageColor3 = {toggleInner, "ImageColor3", "bottomGradient"}
 				colored[1 + #colored] = colored_toggleInner_ImageColor3
@@ -2626,7 +2626,7 @@ function library:CreateWindow(options, ...)
 					button.Position = UDim2.new(0.031, offset, 0.166)
 					button.Selectable = true
 					button.Size = UDim2.fromOffset(28, 18)
-					button.Image = "rbxassetid://2454009026"
+					button.Image = "rbxassetid://13876241935"
 					button.ImageColor3 = library.colors.bottomGradient
 					local colored_button_ImageColor3 = {button, "ImageColor3", "bottomGradient"}
 					colored[1 + #colored] = colored_button_ImageColor3
@@ -2643,7 +2643,7 @@ function library:CreateWindow(options, ...)
 					buttonInner.Position = UDim2.fromScale(0.5, 0.5)
 					buttonInner.Selectable = true
 					buttonInner.Size = UDim2.new(1, -4, 1, -4)
-					buttonInner.Image = "rbxassetid://2454009026"
+					buttonInner.Image = "rbxassetid://13876241935"
 					buttonInner.ImageColor3 = library.colors.bottomGradient
 					local colored_buttonInner_ImageColor3 = {buttonInner, "ImageColor3", "bottomGradient"}
 					colored[1 + #colored] = colored_buttonInner_ImageColor3
@@ -2923,7 +2923,7 @@ function library:CreateWindow(options, ...)
 				textbox.Position = UDim2.fromScale(0.031, 0.48)
 				textbox.Selectable = true
 				textbox.Size = UDim2.fromOffset(206, 18)
-				textbox.Image = "rbxassetid://2454009026"
+				textbox.Image = "rbxassetid://13876241935"
 				textbox.ImageColor3 = library.colors.bottomGradient
 				local colored_textbox_ImageColor3 = {textbox, "ImageColor3", "bottomGradient"}
 				colored[1 + #colored] = colored_textbox_ImageColor3
@@ -2938,7 +2938,7 @@ function library:CreateWindow(options, ...)
 				textboxInner.Position = UDim2.fromScale(0.5, 0.5)
 				textboxInner.Selectable = true
 				textboxInner.Size = UDim2.new(1, -4, 1, -4)
-				textboxInner.Image = "rbxassetid://2454009026"
+				textboxInner.Image = "rbxassetid://13876241935"
 				textboxInner.ImageColor3 = library.colors.bottomGradient
 				colored[1 + #colored] = {textboxInner, "ImageColor3", "bottomGradient"}
 				realTextbox.Name = "realTextbox"
@@ -3574,7 +3574,7 @@ function library:CreateWindow(options, ...)
 				slider.Position = UDim2.fromScale(0.031, 0.48)
 				slider.Selectable = true
 				slider.Size = (usetextbox and UDim2.fromOffset(156, 18)) or UDim2.fromOffset(206, 18)
-				slider.Image = "rbxassetid://2454009026"
+				slider.Image = "rbxassetid://13876241935"
 				slider.ImageColor3 = library.colors.bottomGradient
 				local colored_slider_ImageColor3 = {slider, "ImageColor3", "bottomGradient"}
 				colored[1 + #colored] = colored_slider_ImageColor3
@@ -3589,7 +3589,7 @@ function library:CreateWindow(options, ...)
 				sliderInner.Position = UDim2.fromScale(0.5, 0.5)
 				sliderInner.Selectable = true
 				sliderInner.Size = UDim2.new(1, -4, 1, -4)
-				sliderInner.Image = "rbxassetid://2454009026"
+				sliderInner.Image = "rbxassetid://13876241935"
 				sliderInner.ImageColor3 = library.colors.bottomGradient
 				colored[1 + #colored] = {sliderInner, "ImageColor3", "bottomGradient"}
 				sliderColored.Name = "sliderColored"
@@ -3600,7 +3600,7 @@ function library:CreateWindow(options, ...)
 				sliderColored.BorderSizePixel = 0
 				sliderColored.Selectable = true
 				sliderColored.Size = UDim2.fromScale(((startingValue or minValue) - minValue) / (maxValue - minValue), 1)
-				sliderColored.Image = "rbxassetid://2454009026"
+				sliderColored.Image = "rbxassetid://13876241935"
 				sliderColored.ImageColor3 = darkenColor(library.colors.main, 2.5)
 				colored[1 + #colored] = {sliderColored, "ImageColor3", "main", 2.5}
 				sliderHeadline.Name = "sliderHeadline"
@@ -3673,7 +3673,7 @@ function library:CreateWindow(options, ...)
 					textbox.Position = UDim2.new(1, -54, 0.48)
 					textbox.Selectable = true
 					textbox.Size = UDim2.fromOffset(43, 18)
-					textbox.Image = "rbxassetid://2454009026"
+					textbox.Image = "rbxassetid://13876241935"
 					textbox.ImageColor3 = library.colors.bottomGradient
 					local colored_textbox_ImageColor3 = {textbox, "ImageColor3", "bottomGradient"}
 					colored[1 + #colored] = colored_textbox_ImageColor3
@@ -3688,7 +3688,7 @@ function library:CreateWindow(options, ...)
 					textboxInner.Position = UDim2.fromScale(0.5, 0.5)
 					textboxInner.Selectable = true
 					textboxInner.Size = UDim2.new(1, -4, 1, -4)
-					textboxInner.Image = "rbxassetid://2454009026"
+					textboxInner.Image = "rbxassetid://13876241935"
 					textboxInner.ImageColor3 = library.colors.bottomGradient
 					colored[1 + #colored] = {textboxInner, "ImageColor3", "bottomGradient"}
 					realTextbox.Name = "realTextbox"
@@ -3977,7 +3977,7 @@ function library:CreateWindow(options, ...)
 				dropdown.Position = UDim2.fromScale(0.027, 0.45)
 				dropdown.Selectable = true
 				dropdown.Size = UDim2.fromOffset(206, 18)
-				dropdown.Image = "rbxassetid://2454009026"
+				dropdown.Image = "rbxassetid://13876241935"
 				dropdown.ImageColor3 = library.colors.bottomGradient
 				local colored_dropdown_ImageColor3 = {dropdown, "ImageColor3", "bottomGradient"}
 				colored[1 + #colored] = colored_dropdown_ImageColor3
@@ -3992,7 +3992,7 @@ function library:CreateWindow(options, ...)
 				dropdownInner.Position = UDim2.fromScale(0.5, 0.5)
 				dropdownInner.Selectable = true
 				dropdownInner.Size = UDim2.new(1, -4, 1, -4)
-				dropdownInner.Image = "rbxassetid://2454009026"
+				dropdownInner.Image = "rbxassetid://13876241935"
 				dropdownInner.ImageColor3 = library.colors.bottomGradient
 				colored[1 + #colored] = {dropdownInner, "ImageColor3", "bottomGradient"}
 				dropdownToggle.Name = "dropdownToggle"
@@ -4003,7 +4003,7 @@ function library:CreateWindow(options, ...)
 				dropdownToggle.Rotation = 90
 				dropdownToggle.Size = UDim2.fromOffset(12, 12)
 				dropdownToggle.ZIndex = 6
-				dropdownToggle.Image = "rbxassetid://71659683"
+				dropdownToggle.Image = "rbxassetid://13876241935"
 				dropdownToggle.ImageColor3 = Color3.fromRGB(171, 171, 171)
 				dropdownSelection.Name = "dropdownSelection"
 				dropdownSelection.Parent = dropdown
@@ -4043,7 +4043,7 @@ function library:CreateWindow(options, ...)
 				dropdownHolderFrame.Selectable = true
 				dropdownHolderFrame.Size = UDim2.fromOffset(206, 22)
 				dropdownHolderFrame.Visible = false
-				dropdownHolderFrame.Image = "rbxassetid://2454009026"
+				dropdownHolderFrame.Image = "rbxassetid://13876241935"
 				dropdownHolderFrame.ImageColor3 = library.colors.bottomGradient
 				colored[1 + #colored] = {dropdownHolderFrame, "ImageColor3", "bottomGradient"}
 				dropdownHolderInner.Name = "dropdownHolderInner"
@@ -4056,7 +4056,7 @@ function library:CreateWindow(options, ...)
 				dropdownHolderInner.Position = UDim2.fromScale(0.5, 0.5)
 				dropdownHolderInner.Selectable = true
 				dropdownHolderInner.Size = UDim2.new(1, -4, 1, -4)
-				dropdownHolderInner.Image = "rbxassetid://2454009026"
+				dropdownHolderInner.Image = "rbxassetid://13876241935"
 				dropdownHolderInner.ImageColor3 = library.colors.bottomGradient
 				colored[1 + #colored] = {dropdownHolderInner, "ImageColor3", "bottomGradient"}
 				realDropdownHolder.Name = "realDropdownHolder"
@@ -4155,7 +4155,7 @@ function library:CreateWindow(options, ...)
 							newOption.BackgroundColor3 = (togged and library.colors.selectedOption) or library.colors.topGradient
 							newOption.BorderSizePixel = 0
 							newOption.Size = UDim2.fromOffset(202, 18)
-							newOption.Image = "rbxassetid://2454009026"
+							newOption.Image = "rbxassetid://13876241935"
 							newOption.ImageColor3 = (togged and library.colors.unselectedOption) or library.colors.bottomGradient
 							local stringed = tostring(v)
 							optionButton.Name = stringed
@@ -4658,7 +4658,7 @@ function library:CreateWindow(options, ...)
 					dropdown.Position = UDim2.fromScale(0.027, 0.45)
 					dropdown.Selectable = true
 					dropdown.Size = UDim2.fromOffset(206, 18)
-					dropdown.Image = "rbxassetid://2454009026"
+					dropdown.Image = "rbxassetid://13876241935"
 					dropdown.ImageColor3 = library.colors.bottomGradient
 					local colored_dropdown_ImageColor3 = {dropdown, "ImageColor3", "bottomGradient"}
 					colored[1 + #colored] = colored_dropdown_ImageColor3
@@ -4673,7 +4673,7 @@ function library:CreateWindow(options, ...)
 					dropdownInner.Position = UDim2.fromScale(0.5, 0.5)
 					dropdownInner.Selectable = true
 					dropdownInner.Size = UDim2.new(1, -4, 1, -4)
-					dropdownInner.Image = "rbxassetid://2454009026"
+					dropdownInner.Image = "rbxassetid://13876241935"
 					dropdownInner.ImageColor3 = library.colors.bottomGradient
 					colored[1 + #colored] = {dropdownInner, "ImageColor3", "bottomGradient"}
 					dropdownToggle.Name = "dropdownToggle"
@@ -4684,7 +4684,7 @@ function library:CreateWindow(options, ...)
 					dropdownToggle.Rotation = 90
 					dropdownToggle.Size = UDim2.fromOffset(12, 12)
 					dropdownToggle.ZIndex = 2
-					dropdownToggle.Image = "rbxassetid://71659683"
+					dropdownToggle.Image = "rbxassetid://13876241935"
 					dropdownToggle.ImageColor3 = Color3.fromRGB(171, 171, 171)
 					dropdownSelection.Name = "dropdownSelection"
 					dropdownSelection.Parent = dropdown
@@ -4723,7 +4723,7 @@ function library:CreateWindow(options, ...)
 					dropdownHolderFrame.Selectable = true
 					dropdownHolderFrame.Size = UDim2.fromOffset(206, 22)
 					dropdownHolderFrame.Visible = false
-					dropdownHolderFrame.Image = "rbxassetid://2454009026"
+					dropdownHolderFrame.Image = "rbxassetid://13876241935"
 					dropdownHolderFrame.ImageColor3 = library.colors.bottomGradient
 					colored[1 + #colored] = {dropdownHolderFrame, "ImageColor3", "bottomGradient"}
 					dropdownHolderInner.Name = "dropdownHolderInner"
@@ -4737,7 +4737,7 @@ function library:CreateWindow(options, ...)
 					dropdownHolderInner.Position = UDim2.fromScale(0.5, 0.5)
 					dropdownHolderInner.Selectable = true
 					dropdownHolderInner.Size = UDim2.new(1, -4, 1, -4)
-					dropdownHolderInner.Image = "rbxassetid://2454009026"
+					dropdownHolderInner.Image = "rbxassetid://13876241935"
 					dropdownHolderInner.ImageColor3 = library.colors.bottomGradient
 					colored[1 + #colored] = {dropdownHolderInner, "ImageColor3", "bottomGradient"}
 					realDropdownHolder.Name = "realDropdownHolder"
@@ -4835,7 +4835,7 @@ function library:CreateWindow(options, ...)
 								newOption.BackgroundColor3 = (selectedOption == v and library.colors.selectedOption or library.colors.topGradient)
 								newOption.BorderSizePixel = 0
 								newOption.Size = UDim2.fromOffset(202, 18)
-								newOption.Image = "rbxassetid://2454009026"
+								newOption.Image = "rbxassetid://13876241935"
 								newOption.ImageColor3 = (selectedOption == v and library.colors.unselectedOption or library.colors.bottomGradient)
 								optionButton.Name = tostring(v)
 								optionButton.Parent = newOption
@@ -5237,7 +5237,7 @@ function library:CreateWindow(options, ...)
 							button.Position = UDim2.new(0.031, offset, 0.166)
 							button.Selectable = true
 							button.Size = UDim2.fromOffset(28, 18)
-							button.Image = "rbxassetid://2454009026"
+							button.Image = "rbxassetid://13876241935"
 							button.ImageColor3 = library.colors.bottomGradient
 							local colored_button_ImageColor3 = {button, "ImageColor3", "bottomGradient"}
 							colored[1 + #colored] = colored_button_ImageColor3
@@ -5253,7 +5253,7 @@ function library:CreateWindow(options, ...)
 							buttonInner.Position = UDim2.fromScale(0.5, 0.5)
 							buttonInner.Selectable = true
 							buttonInner.Size = UDim2.new(1, -4, 1, -4)
-							buttonInner.Image = "rbxassetid://2454009026"
+							buttonInner.Image = "rbxassetid://13876241935"
 							buttonInner.ImageColor3 = library.colors.bottomGradient
 							colored[1 + #colored] = {buttonInner, "ImageColor3", "bottomGradient"}
 							button.Size = UDim2.fromOffset(textsize, 18)
@@ -5467,7 +5467,7 @@ function library:CreateWindow(options, ...)
 				dropdown.Position = UDim2.fromScale(0.027, 0.45)
 				dropdown.Selectable = true
 				dropdown.Size = UDim2.fromOffset(206, 18)
-				dropdown.Image = "rbxassetid://2454009026"
+				dropdown.Image = "rbxassetid://13876241935"
 				dropdown.ImageColor3 = library.colors.bottomGradient
 				local colored_dropdown_ImageColor3 = {dropdown, "ImageColor3", "bottomGradient"}
 				colored[1 + #colored] = colored_dropdown_ImageColor3
@@ -5482,7 +5482,7 @@ function library:CreateWindow(options, ...)
 				dropdownInner.Position = UDim2.fromScale(0.5, 0.5)
 				dropdownInner.Selectable = true
 				dropdownInner.Size = UDim2.new(1, -4, 1, -4)
-				dropdownInner.Image = "rbxassetid://2454009026"
+				dropdownInner.Image = "rbxassetid://13876241935"
 				dropdownInner.ImageColor3 = library.colors.bottomGradient
 				colored[1 + #colored] = {dropdownInner, "ImageColor3", "bottomGradient"}
 				dropdownToggle.Name = "dropdownToggle"
@@ -5493,8 +5493,8 @@ function library:CreateWindow(options, ...)
 				dropdownToggle.Rotation = 90
 				dropdownToggle.Size = UDim2.fromOffset(12, 12)
 				dropdownToggle.ZIndex = 2
-				dropdownToggle.Image = "rbxassetid://71659683"
-				dropdownToggle.ImageColor3 = Color3.fromRGB(171, 171, 171)
+				dropdownToggle.Image = "rbxassetid://13876241935"
+				dropdownToggle.ImageColor3 = Color3.fromRGB(171, 171, 298)
 				dropdownSelection.Name = "dropdownSelection"
 				dropdownSelection.Parent = dropdown
 				dropdownSelection.Active = true
@@ -5533,7 +5533,7 @@ function library:CreateWindow(options, ...)
 				dropdownHolderFrame.Selectable = true
 				dropdownHolderFrame.Size = UDim2.fromOffset(206, 22)
 				dropdownHolderFrame.Visible = false
-				dropdownHolderFrame.Image = "rbxassetid://2454009026"
+				dropdownHolderFrame.Image = "rbxassetid://13876241935"
 				dropdownHolderFrame.ImageColor3 = library.colors.bottomGradient
 				colored[1 + #colored] = {dropdownHolderFrame, "ImageColor3", "bottomGradient"}
 				dropdownHolderInner.Name = "dropdownHolderInner"
@@ -5547,7 +5547,7 @@ function library:CreateWindow(options, ...)
 				dropdownHolderInner.Position = UDim2.fromScale(0.5, 0.5)
 				dropdownHolderInner.Selectable = true
 				dropdownHolderInner.Size = UDim2.new(1, -4, 1, -4)
-				dropdownHolderInner.Image = "rbxassetid://2454009026"
+				dropdownHolderInner.Image = "rbxassetid://13876241935"
 				dropdownHolderInner.ImageColor3 = library.colors.bottomGradient
 				colored[1 + #colored] = {dropdownHolderInner, "ImageColor3", "bottomGradient"}
 				realDropdownHolder.Name = "realDropdownHolder"
@@ -5697,7 +5697,7 @@ function library:CreateWindow(options, ...)
 						newOption.BackgroundColor3 = (togged and library.colors.selectedOption) or library.colors.topGradient
 						newOption.BorderSizePixel = 0
 						newOption.Size = UDim2.fromOffset(202, 18)
-						newOption.Image = "rbxassetid://2454009026"
+						newOption.Image = "rbxassetid://13876241935"
 						newOption.ImageColor3 = (togged and library.colors.unselectedOption) or library.colors.bottomGradient
 						local stringed = tostring(v)
 						optionButton.Name = stringed
@@ -6117,7 +6117,7 @@ function library:CreateWindow(options, ...)
 				colorPicker.Position = UDim2.fromScale(0.842, 0.113)
 				colorPicker.Selectable = true
 				colorPicker.Size = UDim2.fromOffset(24, 12)
-				colorPicker.Image = "rbxassetid://2454009026"
+				colorPicker.Image = "rbxassetid://13876241935"
 				colorPicker.ImageColor3 = library.colors.bottomGradient
 				local colored_colorPicker_ImageColor3 = {colorPicker, "ImageColor3", "bottomGradient"}
 				colored[1 + #colored] = colored_colorPicker_ImageColor3
@@ -6130,7 +6130,7 @@ function library:CreateWindow(options, ...)
 				colorPickerInner.Position = UDim2.fromScale(0.5, 0.5)
 				colorPickerInner.Selectable = true
 				colorPickerInner.Size = UDim2.new(1, -4, 1, -4)
-				colorPickerInner.Image = "rbxassetid://2454009026"
+				colorPickerInner.Image = "rbxassetid://13876241935"
 				colorPickerInner.BackgroundColor3 = darkenColor(startingColor, 1.5)
 				colorPickerInner.ImageColor3 = darkenColor(startingColor, 2.5)
 				colorPickerHeadline.Name = "colorPickerHeadline"
@@ -6227,7 +6227,7 @@ function library:CreateWindow(options, ...)
 					colorPickerHolderFrame.Position = UDim2.new(0.025, 0, 1.012, -colorPickerHolderFrame.AbsoluteSize.Y - colorPickerButton.AbsoluteSize.Y - 2)
 				end
 				colorPickerHolderFrame.Visible = false
-				colorPickerHolderFrame.Image = "rbxassetid://2454009026"
+				colorPickerHolderFrame.Image = "rbxassetid://13876241935"
 				colorPickerHolderFrame.ImageColor3 = library.colors.bottomGradient
 				colored[1 + #colored] = {colorPickerHolderFrame, "ImageColor3", "bottomGradient"}
 				colorPickerHolderInner.Name = "colorPickerHolderInner"
@@ -6241,7 +6241,7 @@ function library:CreateWindow(options, ...)
 				colorPickerHolderInner.Position = UDim2.fromScale(0.5, 0.5)
 				colorPickerHolderInner.Selectable = true
 				colorPickerHolderInner.Size = UDim2.new(1, -4, 1, -4)
-				colorPickerHolderInner.Image = "rbxassetid://2454009026"
+				colorPickerHolderInner.Image = "rbxassetid://13876241935"
 				colorPickerHolderInner.ImageColor3 = library.colors.bottomGradient
 				colored[1 + #colored] = {colorPickerHolderInner, "ImageColor3", "bottomGradient"}
 				color.Name = "color"
@@ -6250,7 +6250,7 @@ function library:CreateWindow(options, ...)
 				color.BorderSizePixel = 0
 				color.Position = UDim2.fromOffset(5, 5)
 				color.Size = UDim2.new(1, -10, 0, 192)
-				color.Image = "rbxassetid://4155801252"
+				color.Image = "rbxassetid://13876241935"
 				selectorColor.Name = "selectorColor"
 				selectorColor.Parent = color
 				selectorColor.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -6264,7 +6264,7 @@ function library:CreateWindow(options, ...)
 				hue.BorderSizePixel = 0
 				hue.Position = UDim2.fromOffset(5, 202)
 				hue.Size = UDim2.new(1, -10, 0, 14)
-				hue.Image = "rbxassetid://3570695787"
+				hue.Image = "rbxassetid://13876241935"
 				hue.ScaleType = Enum.ScaleType.Slice
 				hue.SliceScale = 0.01
 				hueGradient.Color = ColorSequence.new({ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 4)), ColorSequenceKeypoint.new(0.17, Color3.fromRGB(235, 7, 255)), ColorSequenceKeypoint.new(0.33, Color3:fromRGB(9, 189)), ColorSequenceKeypoint.new(0.5, Color3:fromRGB(193, 196)), ColorSequenceKeypoint.new(0.66, Color3:new(1)), ColorSequenceKeypoint.new(0.84, Color3.fromRGB(255, 247)), ColorSequenceKeypoint.new(1, Color3.new(1))})
@@ -6287,7 +6287,7 @@ function library:CreateWindow(options, ...)
 				hexInput.Position = UDim2.fromOffset(5, 223)
 				hexInput.Selectable = true
 				hexInput.Size = UDim2.fromOffset(150, 18)
-				hexInput.Image = "rbxassetid://2454009026"
+				hexInput.Image = "rbxassetid://13876241935"
 				hexInput.ImageColor3 = library.colors.bottomGradient
 				colored[1 + #colored] = {hexInput, "ImageColor3", "bottomGradient"}
 				hexInputInner.Name = "hexInputInner"
@@ -6301,7 +6301,7 @@ function library:CreateWindow(options, ...)
 				hexInputInner.Position = UDim2.fromScale(0.5, 0.5)
 				hexInputInner.Selectable = true
 				hexInputInner.Size = UDim2.new(1, -4, 1, -4)
-				hexInputInner.Image = "rbxassetid://2454009026"
+				hexInputInner.Image = "rbxassetid://13876241935"
 				hexInputInner.ImageColor3 = library.colors.bottomGradient
 				colored[1 + #colored] = {hexInputInner, "ImageColor3", "bottomGradient"}
 				hexInputBox.Name = "hexInputBox"
@@ -6327,7 +6327,7 @@ function library:CreateWindow(options, ...)
 				randomColor.Position = UDim2.fromOffset(158, 223)
 				randomColor.Selectable = true
 				randomColor.Size = UDim2.fromOffset(18, 18)
-				randomColor.Image = "rbxassetid://2454009026"
+				randomColor.Image = "rbxassetid://13876241935"
 				randomColor.ImageColor3 = library.colors.bottomGradient
 				colored[1 + #colored] = {randomColor, "ImageColor3", "bottomGradient"}
 				randomColorInner.Name = "randomColorInner"
@@ -6341,7 +6341,7 @@ function library:CreateWindow(options, ...)
 				randomColorInner.Position = UDim2.fromScale(0.5, 0.5)
 				randomColorInner.Selectable = true
 				randomColorInner.Size = UDim2.new(1, -4, 1, -4)
-				randomColorInner.Image = "rbxassetid://2454009026"
+				randomColorInner.Image = "rbxassetid://13876241935"
 				randomColorInner.ImageColor3 = library.colors.bottomGradient
 				colored[1 + #colored] = {randomColorInner, "ImageColor3", "bottomGradient"}
 				randomColorButton.Name = "randomColorButton"
@@ -6350,7 +6350,7 @@ function library:CreateWindow(options, ...)
 				randomColorButton.BackgroundTransparency = 1
 				randomColorButton.Size = UDim2.fromScale(1, 1)
 				randomColorButton.ZIndex = 5
-				randomColorButton.Image = "rbxassetid://12855499169"
+				randomColorButton.Image = "rbxassetid://13876241935"
 				rainbow.Name = "rainbow"
 				rainbow.Parent = colorPickerHolderInner
 				rainbow.Active = true
@@ -6375,7 +6375,7 @@ function library:CreateWindow(options, ...)
 				rainbowInner.Position = UDim2.fromScale(0.5, 0.5)
 				rainbowInner.Selectable = true
 				rainbowInner.Size = UDim2.new(1, -4, 1, -4)
-				rainbowInner.Image = "rbxassetid://12855499169"
+				rainbowInner.Image = "rbxassetid://13876241935"
 				rainbowInner.ImageColor3 = library.colors.bottomGradient
 				colored[1 + #colored] = {rainbowInner, "ImageColor3", "bottomGradient"}
 				rainbowButton.Name = "rainbowButton"
@@ -6719,9 +6719,9 @@ function library:CreateWindow(options, ...)
 		}
 		local daaata = {{"AddTextbox", "__Designer.Textbox.ImageAssetID", backgroundsection, {
 			Name = "Image Asset ID",
-			Placeholder = "rbxassetid://12855499169",
+			Placeholder = "rbxassetid://13876241935",
 			Flag = "__Designer.Background.ImageAssetID",
-			Value = "rbxassetid://12855499169",
+			Value = "rbxassetid://13876241935",
 			Callback = updatecolorsnotween
 		}}, {"AddColorpicker", "__Designer.Colorpicker.ImageColor", backgroundsection, {
 			Name = "Image Color",
