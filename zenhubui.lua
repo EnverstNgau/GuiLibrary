@@ -34,7 +34,7 @@ end
 end
 end
 end
-_G.Color = Color3.fromRGB(178, 102, 255)
+_G.Color = Color3.fromRGB(14, 230, 212)
 function CircleClick(Button, X, Y)
 coroutine.resume(
   coroutine.create(
@@ -45,7 +45,7 @@ coroutine.resume(
     Circle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Circle.BackgroundTransparency = 1.000
     Circle.ZIndex = 10
-    Circle.Image = "rbxassetid://14346331443"
+    Circle.Image = "rbxassetid://14945965226"
     Circle.ImageColor3 = Color3.fromRGB(255, 255, 255)
     Circle.ImageTransparency = 0.7
     Circle.Visible = false
@@ -1771,7 +1771,7 @@ DropImage.BackgroundTransparency = 1.000
 DropImage.Position = UDim2.new(0, 200, 0, 6)
 DropImage.Rotation = 180.000
 DropImage.Size = UDim2.new(0, 20, 0, 20)
-DropImage.Image = "rbxassetid://7072706663"
+DropImage.Image = "rbxassetid://14945965226"
 
 DropButton.Name = "DropButton"
 DropButton.Parent = Dropdown
