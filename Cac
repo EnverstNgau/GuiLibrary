@@ -29,9 +29,9 @@ local player = game:GetService('Players').LocalPlayer
 local mouse = player:GetMouse()
 -- Library variables
 local library = {
-	Name = 'Zekrom Hub X',
-	Version = 'V. 2.0.0',
-	Icon = 'rbxassetid://15608032460',
+	Name = 'Lùa Hub',
+	Version = ' | Series X',
+	Icon = 'rbxassetid://15297431935',
 	Parent = game.CoreGui or player.PlayerGui or player:WaitForChild("PlayerGui", 5),
 	IsMobile = not game:GetService("UserInputService").KeyboardEnabled or false,
 	IsFileSystem = writefile and readfile and makefolder and true or false,
@@ -4223,6 +4223,6 @@ library.Icons = {
 	["Stats"] = "rbxassetid://11447069304",
 	["Teleport"] = "rbxassetid://6035190846",
 	["SpeedHub-icon"] = "rbxassetid://15511158491",
-        ["ZekromHubX-icon"] = "rbxassetid://15608032460",
+    ["Series_X_Icon"] = "rbxassetid://15297431935",
 }
 return library
