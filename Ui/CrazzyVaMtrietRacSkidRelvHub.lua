@@ -110,7 +110,7 @@ e.Draggable = true
 e.Active = true
 e.Selectable = true
 e.BackgroundTransparency = .1
-e.Image = "rbxassetid://15689000757"
+e.Image = "rbxassetid://15297431935"
 e.Visible = false
 local a = Instance.new("UICorner")
 a.Name = "MCNR"
@@ -127,8 +127,8 @@ e.MouseButton1Down:connect(
     end
 )
 do
-    if game:GetService("CoreGui"):FindFirstChild("ZekromHubXUI") then
-        game:GetService("CoreGui").ZekromHubXUI:Destroy()
+    if game:GetService("CoreGui"):FindFirstChild("CrazzyDanEmThaiLor") then
+        game:GetService("CoreGui").CrazzyDanEmThaiLor:Destroy()
         game:GetService("CoreGui").ScreenGui:Destroy()
     end
 end
@@ -144,7 +144,7 @@ function a:Window(f, f, f)
     local f = f or Enum.KeyCode.RightControl
     local f = string.gsub(tostring(f), "Enum.KeyCode.", "")
     local f = Instance.new("ScreenGui")
-    f.Name = "ZekromHubXUI"
+    f.Name = "CrazzyDanEmThaiLor"
     f.Parent = game.CoreGui
     f.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
     local i = Instance.new("Frame")
@@ -185,7 +185,7 @@ function a:Window(f, f, f)
     j.Position = UDim2.new(0, 30, 0.05, 0)
     j.Size = UDim2.new(0, 255, 0.05, 25)
     j.Font = Enum.Font.GothamBold
-    j.Text = "Crazzy Hub V3"
+    j.Text = "Lùa Hub | Series X"
     j.TextSize = 15.000
     j.TextColor3 = Color3.fromRGB(255, 255, 255)
     j.TextXAlignment = Enum.TextXAlignment.Left
@@ -196,7 +196,7 @@ function a:Window(f, f, f)
     j.ImageColor3 = Color3.fromRGB(255, 255, 255)
     j.Position = UDim2.new(0, 500, 0, 7)
     j.Size = UDim2.new(0, 30, 0, 30)
-    j.Image = "rbxassetid://15511995461"
+    j.Image = "rbxassetid://15297431935"
     j.MouseButton1Click:Connect(
         function()
             game:GetService("VirtualInputManager"):SendKeyEvent(true, 305, false, game)
