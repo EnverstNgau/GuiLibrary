@@ -5,7 +5,7 @@ end
 -- extra credits to twink marie
 local library = {}
 local request = request or http_request or (identifyexecutor() == "Synapse X" and syn.request) or (http and http.request)
-loadstring(request({Url="https://raw.githubusercontent.com/EnverstNgau/GuiLibrary/SeriesX/InstanceProtect",Method="GET"}).Body)()
+loadstring(request({Url="https://raw.githubusercontent.com/EnverstNgau/GuiLibrary/main/SeriesX/InstanceProtect",Method="GET"}).Body)()
 local UIS = game:GetService("UserInputService")
 local TS = game:GetService("TweenService")
 function library:CreateWindow(name, version, icon)
